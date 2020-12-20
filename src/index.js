@@ -12,7 +12,7 @@ const myLuckyNumber = 7;
 
 ReactDOM.render(
   <div>
-    <h1>
+    <h1 className="heading">
       {fName} {lName} 's Family
     </h1>
     <ul>
