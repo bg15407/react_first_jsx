@@ -1,3 +1,9 @@
-.heading{
+.heading {
   color: red;
+}
+
+.food-image {
+  width: 100px;
+  height: 100px;
+  padding: 3%;
 }
