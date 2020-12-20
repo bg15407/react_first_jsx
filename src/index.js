@@ -6,11 +6,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+const fName = "Gayan";
+const lName = "Kalinga";
 const myLuckyNumber = 7;
 
 ReactDOM.render(
   <div>
-    <h1>My Family</h1>
+    <h1>
+      {fName} {lName} 's Family
+    </h1>
     <ul>
       <li>Gayan</li>
       <li>Dulashi</li>
