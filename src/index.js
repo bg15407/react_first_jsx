@@ -3,8 +3,10 @@
 //It should display an unordered list (bullet points).
 //It should contain 3 list elements.
 
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+
+const myLuckyNumber = 7;
 
 ReactDOM.render(
   <div>
@@ -14,6 +16,7 @@ ReactDOM.render(
       <li>Dulashi</li>
       <li>Miheli</li>
     </ul>
-  </div>
-  ,document.getElementById('root')
+    <p> My Lucky Number is {myLuckyNumber}</p>
+  </div>,
+  document.getElementById("root")
 );
